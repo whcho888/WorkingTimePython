@@ -1,5 +1,6 @@
 # WorkingTimePython
-You can check easily whether the day is working day or not (including Holidays). You can obtain various time or other day which based on your favor date. (Ex. Which month would be after 20days from now?)
+You can check easily whether the day is working day or not (including Holidays).   
+You can also obtain various time or other day which based on your favor date. (Ex. Which month would be after 20days from now?)
 
 # Availability
 Any other foreign countries' working days can use this module, if you fix array of holidays on KoreanBDay class to your own countries holidays! [and change class name :)].
