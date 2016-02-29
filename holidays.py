@@ -66,7 +66,8 @@ class KoreanBDay(Holidays):
         return self.__is_working_day__(dt - timedelta(days=pastDay), self.holidays)
 
     # 오늘로 부터 pastday 일 전 기준에서 그 직전 영업일 (pastDay = 1 이면, 어제가 영업일인지 확인. 아니라면 그 전 가장 가까운 영업일을 date 형태로 반환)
-    # If pastday is 1, then search yesterday first. Go past until first working day would be and return date of that working date.
+    # If pastday is 1, then search yesterday first. Go past until first working day would be and return date of that
+    # working date.
     def get_before_workingDate(self, now, pastDay=0):
         return self.__get_before_workingDate__(now - timedelta(days=pastDay), self.holidays)
 
