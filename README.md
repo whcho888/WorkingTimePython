@@ -15,7 +15,7 @@ KBD.is_working_day(datetime.now(), 1)
 KBD.is_working_day(datetime.now(), -1)  
 \> False  
 KBD.get_before_workingDate(datetime.now(), 3)  
-\> datetime.date(2016, 2, 26)
+\> datetime.date(2016, 2, 26)  
 KBD.get_xday_before_workingDate(datetime.now(), 3)  
 \> datetime.date(2016, 2, 24)  
 
